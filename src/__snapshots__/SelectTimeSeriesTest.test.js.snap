@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snap shot test 1`] = `
+Array [
+  <select
+    data_test="time_series"
+    onChange={[Function]}
+  >
+    <option>
+      Select Time series 
+    </option>
+    <option
+      value="TIME_SERIES_INTRADAY"
+    >
+      Intra-day
+    </option>
+    <option
+      value="TIME_SERIES_DAILY"
+    >
+      Daily
+    </option>
+    <option
+      value="TIME_SERIES_DAILY_ADJUSTED"
+    >
+      Daily adjusted
+    </option>
+  </select>,
+  <select
+    data_test="company"
+    onChange={[Function]}
+  >
+    <option>
+      Select Company 
+    </option>
+    <option
+      value="AAPL"
+    >
+      AAPL Apple Inc
+    </option>
+    <option
+      value="MSFT"
+    >
+      Microsoft Corporation
+    </option>
+    <option
+      value="AMZN"
+    >
+      Amazon.com, Inc.
+    </option>
+    <option
+      value="NVDA"
+    >
+      NVIDIA Corporation
+    </option>
+    <option
+      value="BRK.B"
+    >
+      Berkshire Hathaway Inc.
+    </option>
+    <option
+      value="GOOGL"
+    >
+      Alphabet Inc.
+    </option>
+    <option
+      value="TSLA"
+    >
+      Tesla, Inc.
+    </option>
+    <option
+      value="META"
+    >
+      Meta Platforms, Inc.
+    </option>
+    <option
+      value="LLY"
+    >
+      Eli Lilly and Company
+    </option>
+    <option
+      value="UNH"
+    >
+      UnitedHealth Group Incorporated
+    </option>
+    <option
+      value="TSM"
+    >
+      Taiwan Semiconductor Manufacturing Company Limited
+    </option>
+    <option
+      value="JPM"
+    >
+      JPMorgan Chase & Co.
+    </option>
+    <option
+      value="AVGO"
+    >
+      Broadcom Inc.
+    </option>
+    <option
+      value="WMT"
+    >
+      Walmart Inc.
+    </option>
+    <option
+      value="XOM"
+    >
+      Exxon Mobil Corporation
+    </option>
+    <option
+      value="V"
+    >
+      Visa
+    </option>
+    <option
+      value="IBM"
+    >
+      International Business Machine
+    </option>
+  </select>,
+  <button
+    data_test="btn"
+    onClick={[Function]}
+  >
+     Fetch
+  </button>,
+  <div
+    className="selected_view"
+    data-testid="mockview"
+  >
+    <div
+      className="view_container"
+    />
+  </div>,
+]
+`;
+
+exports[`snap shot test 2`] = `
+Array [
+  <select
+    data_test="time_series"
+    onChange={[Function]}
+  >
+    <option>
+      Select Time series 
+    </option>
+    <option
+      value="TIME_SERIES_INTRADAY"
+    >
+      Intra-day
+    </option>
+    <option
+      value="TIME_SERIES_DAILY"
+    >
+      Daily
+    </option>
+    <option
+      value="TIME_SERIES_DAILY_ADJUSTED"
+    >
+      Daily adjusted
+    </option>
+  </select>,
+  <select
+    data_test="company"
+    onChange={[Function]}
+  >
+    <option>
+      Select Company 
+    </option>
+    <option
+      value="AAPL"
+    >
+      AAPL Apple Inc
+    </option>
+    <option
+      value="MSFT"
+    >
+      Microsoft Corporation
+    </option>
+    <option
+      value="AMZN"
+    >
+      Amazon.com, Inc.
+    </option>
+    <option
+      value="NVDA"
+    >
+      NVIDIA Corporation
+    </option>
+    <option
+      value="BRK.B"
+    >
+      Berkshire Hathaway Inc.
+    </option>
+    <option
+      value="GOOGL"
+    >
+      Alphabet Inc.
+    </option>
+    <option
+      value="TSLA"
+    >
+      Tesla, Inc.
+    </option>
+    <option
+      value="META"
+    >
+      Meta Platforms, Inc.
+    </option>
+    <option
+      value="LLY"
+    >
+      Eli Lilly and Company
+    </option>
+    <option
+      value="UNH"
+    >
+      UnitedHealth Group Incorporated
+    </option>
+    <option
+      value="TSM"
+    >
+      Taiwan Semiconductor Manufacturing Company Limited
+    </option>
+    <option
+      value="JPM"
+    >
+      JPMorgan Chase & Co.
+    </option>
+    <option
+      value="AVGO"
+    >
+      Broadcom Inc.
+    </option>
+    <option
+      value="WMT"
+    >
+      Walmart Inc.
+    </option>
+    <option
+      value="XOM"
+    >
+      Exxon Mobil Corporation
+    </option>
+    <option
+      value="V"
+    >
+      Visa
+    </option>
+    <option
+      value="IBM"
+    >
+      International Business Machine
+    </option>
+  </select>,
+  <button
+    data_test="btn"
+    onClick={[Function]}
+  >
+     Fetch
+  </button>,
+  <div
+    className="selected_view"
+    data-testid="mockview"
+  >
+    <div
+      className="view_container"
+    >
+      <div
+        className="metadata"
+      >
+        <h1>
+          Meta Data Information
+        </h1>
+        <div>
+          1. Information
+           
+          Intraday (5min) open, high, low, close prices and volume
+        </div>
+        <div>
+          2. Symbol
+           
+          IBM
+        </div>
+        <div>
+          3. Last Refreshed
+           
+          2023-12-04 19:55:00
+        </div>
+        <div>
+          4. Interval
+           
+          5min
+        </div>
+        <div>
+          5. Output Size
+           
+          Compact
+        </div>
+        <div>
+          6. Time Zone
+           
+          US/Eastern
+        </div>
+      </div>
+      <div
+        className="viewdata"
+      >
+        <div
+          className="lineplot"
+        >
+          <canvas
+            height={150}
+            role="img"
+            width={300}
+          />
+        </div>
+        <div
+          className="lineplot"
+        >
+          <canvas
+            height={150}
+            role="img"
+            width={300}
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

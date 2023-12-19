@@ -1,0 +1,23 @@
+.view_container {
+  display: flex;
+  border: 3px dashed pink;
+}
+
+.view_container .metadata {
+  width: 30%;
+}
+
+.view_container .viewdata {
+  width: 68%;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.view_container .viewdata .lineplot {
+  width: 100%;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.view_container .viewdata .gradientplot {
+}
